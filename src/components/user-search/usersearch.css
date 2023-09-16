@@ -1,0 +1,52 @@
+/* ul {
+    list-style: none;
+    padding: 0;
+    margin: 5px;
+  } */
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  .result{
+    width: 80%;
+    height: auto;
+
+  background-color: #aba7a7;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Style for the ul (unordered list) */
+.result >ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style for each list item (li) */
+.result > ul >li {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+/* Hover effect for list items */
+.result li:hover {
+  background-color: #ff8e8e;
+  /* cursor: pointer; */
+}
+
+.first >ul>li{
+  background-color: #fff;
+  padding: 0.5rem;
+  /* width: 25%; */
+}
+/* .first >ul>li:hover{
+background-color: #aba7a7;
+} */
